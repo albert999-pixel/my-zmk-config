@@ -42,8 +42,8 @@
 include:
   - shield: jorne_left
     board: nice_nano_v2
-    snippet: zmk-usb-logging
-    cmake-args: -DCONFIG_ZMK_BATTERY_REPORT_INTERVAL=5
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
 
   - shield: jorne_right
     board: nice_nano_v2
